@@ -1,4 +1,4 @@
-<!-- Written 09/29/2019 23:49:31 -->
+<!-- Written 09/30/2019 00:09:16 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -1754,7 +1754,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x59210" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -1798,7 +1798,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x592D8" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -1842,7 +1842,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x593A0" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -1886,7 +1886,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x59468" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -1930,7 +1930,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x59530" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -1974,7 +1974,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x595F8" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2018,7 +2018,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x596C0" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2083,7 +2083,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x54488" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
       <max>737.562134</max>
@@ -2113,7 +2113,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x54488" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2178,10 +2178,10 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x54618" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562073</max>
+      <max>737.562149</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2208,7 +2208,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x54618" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2273,10 +2273,10 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x547A8" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562073</max>
+      <max>737.562149</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2303,7 +2303,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x547A8" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2355,7 +2355,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x54938" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -2368,10 +2368,10 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x54938" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562073</max>
+      <max>737.562149</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2398,7 +2398,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x54938" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2450,7 +2450,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x54AC8" mmedelementsizebits="16" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -2463,10 +2463,10 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x54AC8" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562073</max>
+      <max>737.562149</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2493,7 +2493,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x54AC8" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2524,7 +2524,7 @@
     <CATEGORYMEM index="2" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -2536,7 +2536,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x571D8" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -2549,10 +2549,10 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x571D8" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562073</max>
+      <max>737.562149</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2581,7 +2581,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x571D8" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2612,7 +2612,7 @@
     <CATEGORYMEM index="2" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -2624,7 +2624,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x57344" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -2637,10 +2637,10 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x57344" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562073</max>
+      <max>737.562149</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2668,7 +2668,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x57344" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2699,7 +2699,7 @@
     <CATEGORYMEM index="2" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -2711,7 +2711,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x574B0" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -2724,10 +2724,10 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x574B0" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562073</max>
+      <max>737.562149</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2755,7 +2755,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x574B0" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2786,7 +2786,7 @@
     <CATEGORYMEM index="2" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -2810,10 +2810,10 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x5761C" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562073</max>
+      <max>737.562149</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2841,7 +2841,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5761C" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2872,7 +2872,7 @@
     <CATEGORYMEM index="2" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -2884,7 +2884,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x57788" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -2897,10 +2897,10 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x57788" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562073</max>
+      <max>737.562149</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2928,7 +2928,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x57788" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2959,7 +2959,7 @@
     <CATEGORYMEM index="2" category="18" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -2971,7 +2971,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x582A0" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2985,10 +2985,10 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x582A0" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562073</max>
+      <max>737.562149</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -3017,7 +3017,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x582A0" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3048,7 +3048,7 @@
     <CATEGORYMEM index="2" category="18" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -3060,7 +3060,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5840C" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -3073,7 +3073,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x5840C" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>2</decimalpl>
       <min>-70.000000</min>
       <max>737.562134</max>
@@ -3104,7 +3104,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5840C" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3135,7 +3135,7 @@
     <CATEGORYMEM index="2" category="18" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -3147,7 +3147,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5861C" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -3160,7 +3160,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x5861C" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>2</decimalpl>
       <min>-70.000000</min>
       <max>737.562134</max>
@@ -3191,7 +3191,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5861C" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3222,7 +3222,7 @@
     <CATEGORYMEM index="2" category="18" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -3234,7 +3234,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5882C" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -3247,7 +3247,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x5882C" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>2</decimalpl>
       <min>-70.000000</min>
       <max>737.562134</max>
@@ -3278,7 +3278,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5882C" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3309,7 +3309,7 @@
     <CATEGORYMEM index="2" category="18" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -3321,7 +3321,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x58A3C" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -3334,7 +3334,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x58A3C" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>2</decimalpl>
       <min>-70.000000</min>
       <max>737.562134</max>
@@ -3365,7 +3365,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x58A3C" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3396,7 +3396,7 @@
     <CATEGORYMEM index="2" category="19" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -3408,7 +3408,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x578F4" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -3421,7 +3421,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x578F4" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>2</decimalpl>
       <min>-70.000000</min>
       <max>737.562134</max>
@@ -3452,7 +3452,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x578F4" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3483,7 +3483,7 @@
     <CATEGORYMEM index="2" category="19" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -3507,7 +3507,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x57A60" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>2</decimalpl>
       <min>-70.000000</min>
       <max>737.562134</max>
@@ -3538,7 +3538,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x57A60" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3569,7 +3569,7 @@
     <CATEGORYMEM index="2" category="19" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -3581,7 +3581,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x57C70" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -3594,7 +3594,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x57C70" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>2</decimalpl>
       <min>-70.000000</min>
       <max>737.562134</max>
@@ -3625,7 +3625,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x57C70" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3656,7 +3656,7 @@
     <CATEGORYMEM index="2" category="19" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -3668,7 +3668,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x57E80" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -3681,7 +3681,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x57E80" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>2</decimalpl>
       <min>-70.000000</min>
       <max>737.562134</max>
@@ -3712,7 +3712,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x57E80" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3743,7 +3743,7 @@
     <CATEGORYMEM index="2" category="19" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -3755,7 +3755,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x58090" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -3768,7 +3768,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x58090" mmedelementsizebits="16" mmedrowcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>2</decimalpl>
       <min>-70.000000</min>
       <max>737.562134</max>
@@ -3799,7 +3799,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x58090" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3843,7 +3843,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5ADBA" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3887,7 +3887,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5ADD6" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3931,7 +3931,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5ADF2" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -3975,7 +3975,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5AE0E" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -4019,7 +4019,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5AE2A" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -4063,7 +4063,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5AED2" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -4107,7 +4107,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5AEEE" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -4151,7 +4151,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5AF0A" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -4195,7 +4195,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5AF26" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -4239,7 +4239,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5AF42" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -4283,7 +4283,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5AE46" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -4327,7 +4327,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5AE62" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -4371,7 +4371,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5AE7E" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -4415,7 +4415,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5AE9A" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -4459,7 +4459,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5AEB6" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>4</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5050,7 +5050,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
-    <title>Torque, engine output</title>
+    <title>Torque, engine output [ft-lbs]</title>
     <CATEGORYMEM index="0" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x6DFD0" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
@@ -5068,7 +5068,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5082,12 +5082,55 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x6DFEA" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="13" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>0.000000</min>
-      <max>737.562134</max>
+      <max>737.562149</max>
       <outputtype>1</outputtype>
       <MATH equation="x*.7375621492772654">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x45F2" flags="0x30">
+    <title>Torque, engine output [Nm]</title>
+    <CATEGORYMEM index="0" category="16" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x6DFD0" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>RPM</units>
+      <indexcount>13</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>2</outputtype>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>Nm</units>
+      <indexcount>1</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>2</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x6DFEA" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="13" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Nm</units>
+      <decimalpl>1</decimalpl>
+      <min>0.000000</min>
+      <max>1000.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="x">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -5133,7 +5176,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -5145,7 +5188,7 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x53DA8" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>100.000000</min>
       <max>737.562134</max>
@@ -5177,7 +5220,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5DBD0" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5222,7 +5265,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5DC70" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5267,7 +5310,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5DD10" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5312,7 +5355,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5DDB0" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5357,7 +5400,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5DE50" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5402,7 +5445,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5E350" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5447,7 +5490,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5E3F0" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5492,7 +5535,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5E4E0" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5537,7 +5580,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5E5D0" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5582,7 +5625,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5E6C0" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5627,7 +5670,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5DEF0" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5672,7 +5715,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5DF90" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5717,7 +5760,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5E080" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5762,7 +5805,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5E170" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5807,7 +5850,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x5E260" mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="8" mmedminorstridebits="0" />
-      <units>lb-ft</units>
+      <units>ft-lbs</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
