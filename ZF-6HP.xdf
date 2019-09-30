@@ -1,4 +1,4 @@
-<!-- Written 09/29/2019 18:33:15 -->
+<!-- Written 09/29/2019 23:31:20 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -486,7 +486,7 @@
     </MATH>
   </XDFCONSTANT>
   <XDFTABLE uniqueid="0x0" flags="0x30">
-    <title>Shift map, active cruise, 1</title>
+    <title>Shift map, active cruise, 1 [MPH]</title>
     <description>Used during Active Cruise Control&#013;&#010;&#013;&#010;Shift maps signal the TCU, when to shift under a specific output shaft RPM/load situation. The infield values are output shaft RPM. Factor in your tire size and rear diff ratio and you are able to transform the output shaft RPM values to vehicle speed.&#013;&#010;&#013;&#010;The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values. &#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="40" />
@@ -534,7 +534,61 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x3546" flags="0x30">
+    <title>Shift map, active cruise, 1 [OSS]</title>
+    <description>Used during Active Cruise Control&#013;&#010;&#013;&#010;Shift maps signal the TCU, when to shift under a specific output shaft RPM/load situation. The infield values are output shaft RPM. Factor in your tire size and rear diff ratio and you are able to transform the output shaft RPM values to vehicle speed.&#013;&#010;&#013;&#010;The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values. &#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.</description>
+    <CATEGORYMEM index="0" category="9" />
+    <CATEGORYMEM index="1" category="40" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>Shift</units>
+      <indexcount>10</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="1&gt;2" />
+      <LABEL index="1" value="2&gt;1" />
+      <LABEL index="2" value="2&gt;3" />
+      <LABEL index="3" value="3&gt;2" />
+      <LABEL index="4" value="3&gt;4" />
+      <LABEL index="5" value="4&gt;3" />
+      <LABEL index="6" value="4&gt;5" />
+      <LABEL index="7" value="5&gt;4" />
+      <LABEL index="8" value="5&gt;6" />
+      <LABEL index="9" value="6&gt;5" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x6EF44" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <indexcount>13</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>2</outputtype>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/10">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x6F47E" mmedelementsizebits="16" mmedrowcount="13" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Output shaft RPM</units>
+      <decimalpl>1</decimalpl>
+      <min>0.000000</min>
+      <max>6000.000000</max>
+      <outputtype>2</outputtype>
+      <MATH equation="x">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -588,7 +642,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -640,7 +694,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -695,7 +749,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -750,7 +804,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -805,7 +859,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -859,7 +913,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -913,7 +967,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -967,7 +1021,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1021,7 +1075,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1073,7 +1127,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1125,7 +1179,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1178,7 +1232,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1245,7 +1299,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1299,7 +1353,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1353,7 +1407,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1463,7 +1517,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1516,7 +1570,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1569,7 +1623,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1622,7 +1676,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1675,7 +1729,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4472,7 +4526,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4519,7 +4573,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4566,7 +4620,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4613,7 +4667,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4660,7 +4714,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4707,7 +4761,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4755,7 +4809,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4802,7 +4856,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4849,7 +4903,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4896,7 +4950,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4943,7 +4997,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4990,7 +5044,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x/2.81*3.14159*((225*0.45*2)+(17*25.4))/1000000*60)*.6214">
+      <MATH equation="(x*.042549015377338205)*.6213711922373837">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>

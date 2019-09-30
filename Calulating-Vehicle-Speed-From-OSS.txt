@@ -1,0 +1,33 @@
+// TODO: make into markdown format
+
+
+Using this formula, a static multiplier for converting from transmission output shaft revolutions per minute to kilometers per hour, vehicle speed:
+
+
+( ( ( ( ( (tire_width_millimeters * tire_aspect) * 2) + (wheel_diameter_inches * 25.4) ) * 3.1415926535897932) * 0.000001) / final_drive_ratio) ) * 60
+
+Populated (note the tire_aspect variable - a 275/30R19 tire would have the value '0.30'):
+( ( ( ( ( (225                    * 0.30)        * 2) + (17                    * 25.4) ) * 3.1415926535897932) * 0.000001) / 2.81             ) ) * 60
+
+
+For example, in the case of a final drive ratio of 2.81 and 225/45R17 size tires, the multiplier for transmission output shaft RPM to kilometers per hour is 0.04254901537733819
+In this way, an output shaft speed value of 4350 would become 185.08821689142113 kilometers per hour ( 4350 * 0.04254901537733819 = 185.08821689142113 )
+
+
+Some other examples:
+225/45R17 tires + final drive 2.81 = 0.04254901537733819
+
+255/35R18 tires + final drive 2.81 = 0.02649708685998455
+255/35R18 tires + final drive 3.08 = 0.02417429028459629
+255/35R18 tires + final drive 3.23 = 0.02305164522494011
+255/35R18 tires + final drive 3.38 = 0.02202864321791615
+255/35R18 tires + final drive 3.46 = 0.02151931042675046
+255/35R18 tires + final drive 3.64 = 0.02045516870235070
+255/35R18 tires + final drive 3.73 = 0.01996161235296423
+255/35R18 tires + final drive 3.85 = 0.01933943222767703
+255/35R18 tires + final drive 3.91 = 0.01904266344668966
+
+275/30R19 tires + final drive 3.15 = 0.03875229338028095
+
+
+For miles per hour, further multiply by 0.621371192237334.
