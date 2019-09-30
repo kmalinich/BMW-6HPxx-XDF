@@ -1,4 +1,4 @@
-<!-- Written 09/30/2019 00:20:31 -->
+<!-- Written 09/30/2019 02:50:25 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -754,6 +754,106 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
+  <XDFTABLE uniqueid="0x6149" flags="0x30">
+    <title>Shift map, economy, extreme, 1, downshift</title>
+    <description>This is the normal map used in D mode. Depending on your vehicle extreme economy 1 or 2 is used.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation</description>
+    <CATEGORYMEM index="0" category="9" />
+    <CATEGORYMEM index="1" category="1" />
+    <CATEGORYMEM index="2" category="5" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>Shift</units>
+      <indexcount>5</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="1&gt;2" />
+      <LABEL index="1" value="2&gt;1" />
+      <LABEL index="2" value="2&gt;3" />
+      <LABEL index="3" value="3&gt;2" />
+      <LABEL index="4" value="3&gt;4" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x6EE48" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <indexcount>13</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>2</outputtype>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/10">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x7003C" mmedelementsizebits="16" mmedrowcount="13" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="224" />
+      <units>MPH</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>160.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="x*.02655960948117376">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x36F4" flags="0x30">
+    <title>Shift map, economy, extreme, 1, upshift</title>
+    <description>This is the normal map used in D mode. Depending on your vehicle extreme economy 1 or 2 is used.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation</description>
+    <CATEGORYMEM index="0" category="9" />
+    <CATEGORYMEM index="1" category="1" />
+    <CATEGORYMEM index="2" category="5" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>Shift</units>
+      <indexcount>5</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="1&gt;2" />
+      <LABEL index="1" value="2&gt;1" />
+      <LABEL index="2" value="2&gt;3" />
+      <LABEL index="3" value="3&gt;2" />
+      <LABEL index="4" value="3&gt;4" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x6EE48" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <indexcount>13</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>2</outputtype>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/10">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x70022" mmedelementsizebits="16" mmedrowcount="13" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="224" />
+      <units>MPH</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>160.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="x*.02655960948117376">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, economy, extreme, 2</title>
     <description>XE for extreme economy. This is the normal map used in D mode. Depending on your vehicle XE 1 or XE 2 is used.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
@@ -762,7 +862,7 @@
     <CATEGORYMEM index="2" category="5" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>Throttle %</units>
+      <units>Shift</units>
       <indexcount>10</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>4</outputtype>
@@ -1133,60 +1233,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
-    <title>Shift map, S0</title>
-    <CATEGORYMEM index="0" category="9" />
-    <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>Shift</units>
-      <indexcount>10</indexcount>
-      <decimalpl>1</decimalpl>
-      <outputtype>4</outputtype>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="1&gt;2" />
-      <LABEL index="1" value="2&gt;1" />
-      <LABEL index="2" value="2&gt;3" />
-      <LABEL index="3" value="3&gt;2" />
-      <LABEL index="4" value="3&gt;4" />
-      <LABEL index="5" value="4&gt;3" />
-      <LABEL index="6" value="4&gt;5" />
-      <LABEL index="7" value="5&gt;4" />
-      <LABEL index="8" value="5&gt;6" />
-      <LABEL index="9" value="6&gt;5" />
-      <MATH equation="x">
-        <VAR id="x" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x6EE48" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>Throttle %</units>
-      <indexcount>13</indexcount>
-      <decimalpl>1</decimalpl>
-      <outputtype>2</outputtype>
-      <embedinfo type="1" />
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <MATH equation="x/10">
-        <VAR id="x" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x6FD16" mmedelementsizebits="16" mmedrowcount="13" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>MPH</units>
-      <decimalpl>2</decimalpl>
-      <min>0.000000</min>
-      <max>160.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="x*.02655960948117376">
-        <VAR id="x" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x30">
-    <title>Shift map, S</title>
-    <description>Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift&#013;&#010;</description>
+    <title>Shift map, sport, extreme 1</title>
+    <description>Extreme sport map is tied to sport mode. During heavy braking or quick throttle changes the TCU jumps from sport to extreme sport map for a few seconds, depending on vehicle and further driver reaction.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift&#013;&#010;</description>
     <CATEGORYMEM index="0" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1238,8 +1286,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
-    <title>Shift map, sport, extreme</title>
-    <description>XS for Extreme Sport. XS map is tied to S mode. During heavy braking or quick throttle changes the TCU jumps from S to XS map for a few seconds, depending on vehicle and further driver reaction.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
+    <title>Shift map, sport, extreme 2</title>
+    <description>Extreme sport map is tied to sport mode. During heavy braking or quick throttle changes the TCU jumps from sport to extreme sport map for a few seconds, depending on vehicle and further driver reaction.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="2" />
     <CATEGORYMEM index="2" category="5" />
@@ -1267,33 +1315,74 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>-</units>
+      <EMBEDDEDDATA mmedaddress="0x6EE48" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Throttle %</units>
       <indexcount>13</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
+      <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <LABEL index="0" value="0" />
-      <LABEL index="1" value="1" />
-      <LABEL index="2" value="2" />
-      <LABEL index="3" value="3" />
-      <LABEL index="4" value="4" />
-      <LABEL index="5" value="5" />
-      <LABEL index="6" value="6" />
-      <LABEL index="7" value="7" />
-      <LABEL index="8" value="8" />
-      <LABEL index="9" value="9" />
-      <LABEL index="10" value="10" />
-      <LABEL index="11" value="11" />
-      <LABEL index="12" value="12" />
-      <MATH equation="x">
+      <MATH equation="x/10">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x70432" mmedelementsizebits="16" mmedrowcount="13" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>MPH</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>160.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="x*.02655960948117376">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x30">
+    <title>Shift map, sport, normal, 1</title>
+    <CATEGORYMEM index="0" category="9" />
+    <CATEGORYMEM index="1" category="2" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>Shift</units>
+      <indexcount>10</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="1&gt;2" />
+      <LABEL index="1" value="2&gt;1" />
+      <LABEL index="2" value="2&gt;3" />
+      <LABEL index="3" value="3&gt;2" />
+      <LABEL index="4" value="3&gt;4" />
+      <LABEL index="5" value="4&gt;3" />
+      <LABEL index="6" value="4&gt;5" />
+      <LABEL index="7" value="5&gt;4" />
+      <LABEL index="8" value="5&gt;6" />
+      <LABEL index="9" value="6&gt;5" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x6EF44" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <indexcount>13</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>2</outputtype>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/10">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x6FD16" mmedelementsizebits="16" mmedrowcount="13" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>MPH</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
@@ -1468,7 +1557,7 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x30">
+  <XDFTABLE uniqueid="0x66D2" flags="0x30">
     <title>Shift map, uphill, A1</title>
     <description>Uphill maps are used when the DSC senses the vehicle going uphill. The steeper the incline, the higher the A* map used. Usually only A1 and A2 are used on normal roads.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
     <CATEGORYMEM index="0" category="9" />
@@ -1523,6 +1612,159 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
+    <title>Shift map, uphill, A1, downshift</title>
+    <description>Uphill maps are used when the DSC senses the vehicle going uphill. The steeper the incline, the higher the A* map used. Usually only A1 and A2 are used on normal roads.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation</description>
+    <CATEGORYMEM index="0" category="9" />
+    <CATEGORYMEM index="1" category="37" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>Shift</units>
+      <indexcount>5</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="2&gt;1" />
+      <LABEL index="1" value="3&gt;2" />
+      <LABEL index="2" value="4&gt;3" />
+      <LABEL index="3" value="5&gt;4" />
+      <LABEL index="4" value="6&gt;5" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x6ED14" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <indexcount>13</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>2</outputtype>
+      <embedinfo type="3" linkobjid="0x121A" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/10">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x6EF84" mmedelementsizebits="16" mmedrowcount="13" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="224" />
+      <units>MPH</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>160.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="x*.02655960948117376">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x4106" flags="0x30">
+    <title>Shift map, uphill, A1, upshift</title>
+    <description>Uphill maps are used when the DSC senses the vehicle going uphill. The steeper the incline, the higher the A* map used. Usually only A1 and A2 are used on normal roads.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation</description>
+    <CATEGORYMEM index="0" category="9" />
+    <CATEGORYMEM index="1" category="37" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>Shift</units>
+      <indexcount>5</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="1&gt;2" />
+      <LABEL index="1" value="2&gt;3" />
+      <LABEL index="2" value="3&gt;4" />
+      <LABEL index="3" value="4&gt;5" />
+      <LABEL index="4" value="5&gt;6" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x6ED14" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <indexcount>13</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>2</outputtype>
+      <embedinfo type="3" linkobjid="0x121A" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x/10">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedtypeflags="0x04" mmedaddress="0x6EF6A" mmedelementsizebits="16" mmedrowcount="13" mmedcolcount="5" mmedmajorstridebits="0" mmedminorstridebits="224" />
+      <units>MPH</units>
+      <decimalpl>2</decimalpl>
+      <min>0.000000</min>
+      <max>160.000000</max>
+      <outputtype>1</outputtype>
+      <MATH equation="x*.02655960948117376">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x4F83" vislevel="2" flags="0x30">
+    <title>Shift map, uphill, A2 (Y-axis)</title>
+    <CATEGORYMEM index="0" category="9" />
+    <CATEGORYMEM index="1" category="37" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <indexcount>1</indexcount>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Row</units>
+      <indexcount>13</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="1" />
+      <LABEL index="1" value="2" />
+      <LABEL index="2" value="3" />
+      <LABEL index="3" value="4" />
+      <LABEL index="4" value="5" />
+      <LABEL index="5" value="6" />
+      <LABEL index="6" value="7" />
+      <LABEL index="7" value="8" />
+      <LABEL index="8" value="9" />
+      <LABEL index="9" value="10" />
+      <LABEL index="10" value="11" />
+      <LABEL index="11" value="12" />
+      <LABEL index="12" value="13" />
+      <MATH equation="x/10">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x6ED30" mmedelementsizebits="16" mmedrowcount="13" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <decimalpl>1</decimalpl>
+      <min>0.000000</min>
+      <max>110.000000</max>
+      <outputtype>2</outputtype>
+      <MATH equation="x/10">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, uphill, A2</title>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="37" />
@@ -1555,7 +1797,7 @@
       <indexcount>13</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
-      <embedinfo type="1" />
+      <embedinfo type="3" linkobjid="0x4F83" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
@@ -1571,6 +1813,61 @@
       <max>160.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="x*.02655960948117376">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x70AD" vislevel="2" flags="0x30">
+    <title>Shift map, uphill, A3 (Y-axis)</title>
+    <CATEGORYMEM index="0" category="9" />
+    <CATEGORYMEM index="1" category="37" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <indexcount>1</indexcount>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Row</units>
+      <indexcount>13</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="1" />
+      <LABEL index="1" value="2" />
+      <LABEL index="2" value="3" />
+      <LABEL index="3" value="4" />
+      <LABEL index="4" value="5" />
+      <LABEL index="5" value="6" />
+      <LABEL index="6" value="7" />
+      <LABEL index="7" value="8" />
+      <LABEL index="8" value="9" />
+      <LABEL index="9" value="10" />
+      <LABEL index="10" value="11" />
+      <LABEL index="11" value="12" />
+      <LABEL index="12" value="13" />
+      <MATH equation="x/10">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x6ED4C" mmedelementsizebits="16" mmedrowcount="13" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <decimalpl>1</decimalpl>
+      <min>0.000000</min>
+      <max>110.000000</max>
+      <outputtype>2</outputtype>
+      <MATH equation="x/10">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1608,7 +1905,7 @@
       <indexcount>13</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
-      <embedinfo type="1" />
+      <embedinfo type="3" linkobjid="0x799" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
@@ -1624,6 +1921,61 @@
       <max>160.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="x*.02655960948117376">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x799" vislevel="2" flags="0x30">
+    <title>Shift map, uphill, A4 (Y-axis)</title>
+    <CATEGORYMEM index="0" category="9" />
+    <CATEGORYMEM index="1" category="37" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <indexcount>1</indexcount>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Row</units>
+      <indexcount>13</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="1" />
+      <LABEL index="1" value="2" />
+      <LABEL index="2" value="3" />
+      <LABEL index="3" value="4" />
+      <LABEL index="4" value="5" />
+      <LABEL index="5" value="6" />
+      <LABEL index="6" value="7" />
+      <LABEL index="7" value="8" />
+      <LABEL index="8" value="9" />
+      <LABEL index="9" value="10" />
+      <LABEL index="10" value="11" />
+      <LABEL index="11" value="12" />
+      <LABEL index="12" value="13" />
+      <MATH equation="x/10">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x6ED68" mmedelementsizebits="16" mmedrowcount="13" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <decimalpl>1</decimalpl>
+      <min>0.000000</min>
+      <max>110.000000</max>
+      <outputtype>2</outputtype>
+      <MATH equation="x/10">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1656,12 +2008,12 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x6EE48" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x6ED68" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>Throttle %</units>
       <indexcount>13</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
-      <embedinfo type="1" />
+      <embedinfo type="3" linkobjid="0x799" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
@@ -1677,6 +2029,61 @@
       <max>160.000000</max>
       <outputtype>1</outputtype>
       <MATH equation="x*.02655960948117376">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+  </XDFTABLE>
+  <XDFTABLE uniqueid="0x128E" vislevel="2" flags="0x30">
+    <title>Shift map, uphill, A5 (Y-axis)</title>
+    <CATEGORYMEM index="0" category="9" />
+    <CATEGORYMEM index="1" category="37" />
+    <XDFAXIS id="x" uniqueid="0x0">
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <indexcount>1</indexcount>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="0.00" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" uniqueid="0x0">
+      <EMBEDDEDDATA mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>Row</units>
+      <indexcount>13</indexcount>
+      <decimalpl>1</decimalpl>
+      <outputtype>4</outputtype>
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <LABEL index="0" value="1" />
+      <LABEL index="1" value="2" />
+      <LABEL index="2" value="3" />
+      <LABEL index="3" value="4" />
+      <LABEL index="4" value="5" />
+      <LABEL index="5" value="6" />
+      <LABEL index="6" value="7" />
+      <LABEL index="7" value="8" />
+      <LABEL index="8" value="9" />
+      <LABEL index="9" value="10" />
+      <LABEL index="10" value="11" />
+      <LABEL index="11" value="12" />
+      <LABEL index="12" value="13" />
+      <MATH equation="x/10">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="z">
+      <EMBEDDEDDATA mmedaddress="0x6ED84" mmedelementsizebits="16" mmedrowcount="13" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <units>Throttle %</units>
+      <decimalpl>1</decimalpl>
+      <min>0.000000</min>
+      <max>110.000000</max>
+      <outputtype>2</outputtype>
+      <MATH equation="x/10">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1709,12 +2116,12 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x6EE48" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x6ED84" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>Throttle %</units>
       <indexcount>13</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
-      <embedinfo type="1" />
+      <embedinfo type="3" linkobjid="0x128E" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
@@ -4484,8 +4891,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
-    <title>TCC, cold, 1</title>
-    <description>Factor in your tire size and final drive ratio to convert those values to vehicle speed</description>
+    <title>TCC, cold, 1 [MPH]</title>
     <CATEGORYMEM index="0" category="10" />
     <CATEGORYMEM index="1" category="29" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -4767,8 +5173,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
-    <title>TCC, warm, 1</title>
-    <description>Factor in your tire size and final drive ratio to convert those values to vehicle speed</description>
+    <title>TCC, warm, 1 [MPH]</title>
     <CATEGORYMEM index="0" category="10" />
     <CATEGORYMEM index="1" category="28" />
     <XDFAXIS id="x" uniqueid="0x0">

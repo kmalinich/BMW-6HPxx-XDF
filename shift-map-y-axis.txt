@@ -1,0 +1,71 @@
+// Sport
+N  : 0x6FD16 => 0x6EE48
+E1 : 0x6FC12 => 0x6EE48
+E2 : 0x70432 => ??
+
+// Economy
+N  : 0x6F78A => 0x6EF44
+E1 : 0x70022 => 0x6EE48
+E2 : 0x7032E => 0x6EE48
+
+// LD
+0x6FA0A => 0x6EE48
+
+// B0
+0x6F686 => 0x6EE48
+
+// ACC1
+0x6F47E => 0x6EF44
+
+
+// Uphill
+// 13x10 tables - 130 2-byte cells (0x104/260 bytes)
+// Column and row labels are both 2-byte
+
+// Bogus axis definitions
+Map   X-axis  => Y-axis  => Z-axis
+A1  : N/A     => 0x6ED14 => 0x6EF6A offset 598
+A2  : N/A     => 0x6ED30 => 0x6F06E offset 830
+A3  : N/A     => 0x6ED4C => 0x6F172 offset 1062
+A4  : N/A     => 0x6EE48 => 0x6F276 offset 1070
+A5  : N/A     => 0x6EE48 => 0x6F37A offset 1330
+
+// Fixed axis definitions
+Map   X-axis  => Y-axis  => Z-axis
+A1  : N/A     => 0x6ED14 => 0x6EF6A
+A2  : N/A     => 0x6ED30 => 0x6F06E
+A3  : N/A     => 0x6ED4C => 0x6F172
+A4  : N/A     => 0x6ED68 => 0x6F276
+A5  : N/A     => 0x6ED84 => 0x6F37A
+
+
+
+[h2d] | 345208 | 0x54478
+[h2d] | 345224 | 0x54488
+[h2d] | 345244 | 0x5449C
+
+[h2d] | 345608 | 0x54608
+[h2d] | 345624 | 0x54618
+[h2d] | 345644 | 0x5462C
+
+[h2d] | 346008 | 0x54798
+[h2d] | 346024 | 0x547A8
+[h2d] | 346044 | 0x547BC
+
+[h2d] | 346408 | 0x54928
+[h2d] | 346424 | 0x54938
+[h2d] | 346444 | 0x5494C
+
+[h2d] | 346808 | 0x54AB8
+[h2d] | 346824 | 0x54AC8
+[h2d] | 346844 | 0x54ADC
+
+// 10x8 tables - 80 2-byte cells (0xA0/160 bytes)
+// Column and row labels are both 2-byte
+// Shift pressure, offgoing
+Map   X-axis  => Y-axis  => Z-axis
+1>2 : 0x54478 => 0x54488 => 0x5449C
+2>3 : 0x54608 => 0x54618 => 0x5462C
+3>4 : 0x54798 => 0x547A8 => 0x547BC
+4>5 : 0x54928 => 0x54938 => 0x5494C
+5>6 : 0x54AB8 => 0x54AC8 => 0x54ADC
