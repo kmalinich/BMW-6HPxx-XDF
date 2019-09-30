@@ -1,4 +1,4 @@
-<!-- Written 09/30/2019 00:09:16 -->
+<!-- Written 09/30/2019 00:20:31 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2181,7 +2181,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562149</max>
+      <max>737.562134</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2276,7 +2276,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562149</max>
+      <max>737.562134</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2371,7 +2371,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562149</max>
+      <max>737.562134</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2466,7 +2466,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562149</max>
+      <max>737.562134</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2552,7 +2552,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562149</max>
+      <max>737.562134</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2640,7 +2640,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562149</max>
+      <max>737.562134</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2727,7 +2727,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562149</max>
+      <max>737.562134</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2813,7 +2813,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562149</max>
+      <max>737.562134</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2900,7 +2900,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562149</max>
+      <max>737.562134</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -2988,7 +2988,7 @@
       <units>ft-lbs</units>
       <decimalpl>1</decimalpl>
       <min>-70.000000</min>
-      <max>737.562149</max>
+      <max>737.562134</max>
       <outputtype>2</outputtype>
       <MATH equation="((x*6)-204)*.7375621492772654">
         <VAR id="x" />
@@ -5049,55 +5049,65 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
-  <XDFTABLE uniqueid="0x0" flags="0x30">
+  <XDFFUNCTION uniqueid="0xF24" flags="0x0">
     <title>Torque, engine output [ft-lbs]</title>
     <CATEGORYMEM index="0" category="16" />
-    <XDFAXIS id="x" uniqueid="0x0">
+    <CATEGORYMEM index="1" category="6" />
+    <XDFAXIS id="x" flags="0xC" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x6DFD0" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>RPM</units>
+      <units>Engine RPM</units>
       <indexcount>13</indexcount>
       <decimalpl>1</decimalpl>
+      <min>100.000000</min>
+      <max>8000.000000</max>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <MATH equation="x">
-        <VAR id="x" />
+      <MATH equation="X">
+        <VAR id="X" />
       </MATH>
     </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+    <XDFAXIS id="y" flags="0xC" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x6DFEA" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
       <units>ft-lbs</units>
-      <indexcount>1</indexcount>
+      <indexcount>13</indexcount>
       <decimalpl>1</decimalpl>
+      <max>737.562134</max>
       <outputtype>2</outputtype>
+      <embedinfo type="1" />
       <datatype>0</datatype>
       <unittype>0</unittype>
       <DALINK index="0" />
-      <LABEL index="0" value="0" />
-      <MATH equation="x">
-        <VAR id="x" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x6DFEA" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="13" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>ft-lbs</units>
-      <decimalpl>1</decimalpl>
-      <min>0.000000</min>
-      <max>737.562149</max>
-      <outputtype>1</outputtype>
       <MATH equation="x*.7375621492772654">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
-  </XDFTABLE>
-  <XDFTABLE uniqueid="0x45F2" flags="0x30">
-    <title>Torque, engine output [Nm]</title>
+  </XDFFUNCTION>
+  <XDFFUNCTION uniqueid="0x7FB8" flags="0x0">
+    <title>Torque, engine output [nm]</title>
     <CATEGORYMEM index="0" category="16" />
-    <XDFAXIS id="x" uniqueid="0x0">
+    <CATEGORYMEM index="1" category="6" />
+    <XDFAXIS id="x" flags="0xC" uniqueid="0x0">
       <EMBEDDEDDATA mmedaddress="0x6DFD0" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
-      <units>RPM</units>
+      <units>Engine RPM</units>
+      <indexcount>13</indexcount>
+      <decimalpl>1</decimalpl>
+      <min>100.000000</min>
+      <max>8000.000000</max>
+      <outputtype>2</outputtype>
+      <embedinfo type="1" />
+      <datatype>0</datatype>
+      <unittype>0</unittype>
+      <DALINK index="0" />
+      <MATH equation="x">
+        <VAR id="x" />
+      </MATH>
+    </XDFAXIS>
+    <XDFAXIS id="y" flags="0xC" uniqueid="0x0">
+      <EMBEDDEDDATA mmedaddress="0x6DFEA" mmedelementsizebits="16" mmedcolcount="13" mmedmajorstridebits="16" mmedminorstridebits="0" />
+      <units>nm</units>
       <indexcount>13</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -5109,32 +5119,7 @@
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
-    <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>Nm</units>
-      <indexcount>1</indexcount>
-      <decimalpl>1</decimalpl>
-      <outputtype>2</outputtype>
-      <datatype>0</datatype>
-      <unittype>0</unittype>
-      <DALINK index="0" />
-      <LABEL index="0" value="0" />
-      <MATH equation="x">
-        <VAR id="x" />
-      </MATH>
-    </XDFAXIS>
-    <XDFAXIS id="z">
-      <EMBEDDEDDATA mmedaddress="0x6DFEA" mmedelementsizebits="16" mmedrowcount="1" mmedcolcount="13" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Nm</units>
-      <decimalpl>1</decimalpl>
-      <min>0.000000</min>
-      <max>1000.000000</max>
-      <outputtype>1</outputtype>
-      <MATH equation="x">
-        <VAR id="x" />
-      </MATH>
-    </XDFAXIS>
-  </XDFTABLE>
+  </XDFFUNCTION>
   <XDFCONSTANT uniqueid="0x5131" flags="0xC">
     <title>Torque, limit, global</title>
     <description>0x53D9C</description>
