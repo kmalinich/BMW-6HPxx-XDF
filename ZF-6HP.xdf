@@ -1,4 +1,4 @@
-<!-- Written 09/29/2019 23:31:20 -->
+<!-- Written 09/29/2019 23:49:31 -->
 <XDFFORMAT version="1.60">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -487,7 +487,7 @@
   </XDFCONSTANT>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, active cruise, 1 [MPH]</title>
-    <description>Used during Active Cruise Control&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift under a specific output shaft RPM/load situation. The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values. &#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.</description>
+    <description>Used during Active Cruise Control&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="40" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -534,14 +534,14 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x3546" flags="0x30">
     <title>Shift map, active cruise, 1 [OSS]</title>
-    <description>Used during Active Cruise Control&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift under a specific output shaft RPM/load situation. The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values. &#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.</description>
+    <description>Used during Active Cruise Control&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="40" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -595,7 +595,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, active cruise, 2</title>
-    <description>Used during Active Cruise Control&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift under a specific output shaft RPM/load situation. The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values. &#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.</description>
+    <description>Used during Active Cruise Control&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="40" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -642,7 +642,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -694,14 +694,14 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, economy, extreme, 1</title>
-    <description>This is the normal map used in D mode. Depending on your vehicle extreme economy 1 or 2 is used.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift under a specific output shaft RPM/load situation. The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values. &#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.</description>
+    <description>This is the normal map used in D mode. Depending on your vehicle extreme economy 1 or 2 is used.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="1" />
     <CATEGORYMEM index="2" category="5" />
@@ -749,14 +749,14 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, economy, extreme, 2</title>
-    <description>XE for extreme economy. This is the normal map used in D mode. Depending on your vehicle XE 1 or XE 2 is used.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift under a specific output shaft RPM/load situation. The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values. &#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.</description>
+    <description>XE for extreme economy. This is the normal map used in D mode. Depending on your vehicle XE 1 or XE 2 is used.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="1" />
     <CATEGORYMEM index="2" category="5" />
@@ -804,14 +804,14 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, economy, normal, 1</title>
-    <description>During heavy braking and quick throttle changes the TCU jumps from XE to E map for a few seconds and depending on further reaction of the driver.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift under a specific output shaft RPM/load situation. The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values. &#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.</description>
+    <description>During heavy braking and quick throttle changes the TCU jumps from XE to E map for a few seconds and depending on further reaction of the driver.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="1" />
     <CATEGORYMEM index="2" category="3" />
@@ -859,14 +859,14 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, heating mode, 0</title>
-    <description>Depending on engine coolant temperature the TCU chooses 1 of 3 heating maps on a cold start. Higher shift points help to warm up the engine/catalytic converter/DPF.</description>
+    <description>Depending on engine coolant temperature the TCU chooses 1 of 3 heating maps on a cold start. Higher shift points help to warm up the engine/catalytic converter/DPF</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="38" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -913,14 +913,14 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, heating mode, 1</title>
-    <description>Depending on engine coolant temperature the TCU chooses 1 of 3 heating maps on a cold start. Higher shift points help to warm up the engine/catalytic converter/DPF.</description>
+    <description>Depending on engine coolant temperature the TCU chooses 1 of 3 heating maps on a cold start. Higher shift points help to warm up the engine/catalytic converter/DPF</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="38" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -967,14 +967,14 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, heating mode, 2</title>
-    <description>Depending on engine coolant temperature the TCU chooses 1 of 3 heating maps on a cold start. Higher shift points help to warm up the engine/catalytic converter/DPF.</description>
+    <description>Depending on engine coolant temperature the TCU chooses 1 of 3 heating maps on a cold start. Higher shift points help to warm up the engine/catalytic converter/DPF</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="38" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1021,14 +1021,14 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, heating mode, 3</title>
-    <description>Depending on engine coolant temperature the TCU chooses 1 of 3 heating maps on a cold start. Higher shift points help to warm up the engine/catalytic converter/DPF.</description>
+    <description>Depending on engine coolant temperature the TCU chooses 1 of 3 heating maps on a cold start. Higher shift points help to warm up the engine/catalytic converter/DPF</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="38" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1075,7 +1075,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1127,7 +1127,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1179,14 +1179,14 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, S</title>
-    <description>Shift maps signal the TCU when to shift under a specific output shaft RPM/load situation. The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values. &#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.&#013;&#010;</description>
+    <description>Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift&#013;&#010;</description>
     <CATEGORYMEM index="0" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -1232,14 +1232,14 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, sport, extreme</title>
-    <description>XS for Extreme Sport. XS map is tied to S mode. During heavy braking or quick throttle changes the TCU jumps from S to XS map for a few seconds, depending on vehicle and further driver reaction.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift under a specific output shaft RPM/load situation. The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values. &#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.</description>
+    <description>XS for Extreme Sport. XS map is tied to S mode. During heavy braking or quick throttle changes the TCU jumps from S to XS map for a few seconds, depending on vehicle and further driver reaction.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="2" />
     <CATEGORYMEM index="2" category="5" />
@@ -1299,14 +1299,14 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, Steptronic, 1</title>
-    <description>Steptronic/Paddle map. On some vehicles Steptronic 1 is used, on others Steptronic 2.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift under a specific output shaft RPM/load situation. The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values. &#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.</description>
+    <description>Steptronic/Paddle map. On some vehicles Steptronic 1 is used, on others Steptronic 2.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="39" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1353,14 +1353,14 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, Steptronic, 2</title>
-    <description>Steptronic/Paddle map. On some vehicles Steptronic 1 is used, on others Steptronic 2.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift under a specific output shaft RPM/load situation. The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values. &#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.</description>
+    <description>Steptronic/Paddle map. On some vehicles Steptronic 1 is used, on others Steptronic 2.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="39" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1407,7 +1407,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1470,7 +1470,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift map, uphill, A1</title>
-    <description>Uphill maps are used when the DSC senses the vehicle going uphill. The steeper the incline, the higher the A* map used. Usually only A1 and A2 are used on normal roads.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift under a specific output shaft RPM/load situation. The X-axis is throttle Input. The Y-axis represents gears 1 - 6, with the corresponding upshift/downshift output shaft RPM values.&#013;&#010;&#013;&#010;Row 1: 1-&gt;2 Upshift&#013;&#010;Row 2: 2-&gt;1 Downshift&#013;&#010;Row 3: 2-&gt;3 Upshift&#013;&#010;etc.</description>
+    <description>Uphill maps are used when the DSC senses the vehicle going uphill. The steeper the incline, the higher the A* map used. Usually only A1 and A2 are used on normal roads.&#013;&#010;&#013;&#010;Shift maps signal the TCU when to shift in a specific speed/load situation&#013;&#010;&#013;&#010;Column 1: 1st-&gt;2nd upshift&#013;&#010;Column 2: 2nd-&gt;1st downshift&#013;&#010;Column 3: 2nd-&gt;3rd upshift&#013;&#010;Column 4: 3rd-&gt;2nd downshift</description>
     <CATEGORYMEM index="0" category="9" />
     <CATEGORYMEM index="1" category="37" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1517,7 +1517,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1570,7 +1570,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1623,7 +1623,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1676,7 +1676,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -1729,7 +1729,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -2561,7 +2561,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift pressure, ongoing, D mode, 1-&gt;2</title>
-    <description>Shift pressure maps tell the TCU what main pressure is to be applied during a shift.&#013;&#010;In each shift 2 pressure maps are involved.&#013;&#010;One for the ongoing, one for the offgoing clutch.&#013;&#010;&#013;&#010;To get a proper shift Ongoing/Offgoing pressure and TQ correction have to be aligned.</description>
+    <description>Shift pressure maps tell the TCU what main pressure is to be applied during a shift.&#013;&#010;In each shift, two pressure maps are involved.&#013;&#010;One for the ongoing, one for the offgoing clutch.&#013;&#010;&#013;&#010;To get a proper shift ongoing/offgoing pressure and torque reduction have to be aligned</description>
     <CATEGORYMEM index="0" category="14" />
     <CATEGORYMEM index="1" category="25" />
     <CATEGORYMEM index="2" category="17" />
@@ -2997,7 +2997,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Shift pressure, ongoing, M mode, 1-&gt;2</title>
-    <description>Shift Pressure maps tell the TCU what main pressure is to be applied during a shift. In each shift 2 pressure maps are involved. One for the ongoing, one for the offgoing clutch. While offgoing maps are the same for D/M/S mode, the ongoing clutches use different maps for each mode.&#013;&#010;&#013;&#010;To get a proper shift Ongoing/Offgoing pressure and TQ correction have to be aligned.</description>
+    <description>Shift pressure maps tell the TCU what main pressure is to be applied during a shift. In each shift, two pressure maps are involved - one for the ongoing clutch, and one for the offgoing clutch. While offgoing maps are the same for D/M/S mode, the ongoing clutches use different maps for each mode.&#013;&#010;&#013;&#010;To get a proper shift ongoing/offgoing pressure and torque reduction have to be aligned</description>
     <CATEGORYMEM index="0" category="14" />
     <CATEGORYMEM index="1" category="25" />
     <CATEGORYMEM index="2" category="18" />
@@ -4526,7 +4526,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4573,7 +4573,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4620,7 +4620,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4667,7 +4667,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4714,7 +4714,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4761,7 +4761,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4809,7 +4809,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4856,7 +4856,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4903,7 +4903,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4950,7 +4950,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -4997,7 +4997,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -5044,7 +5044,7 @@
       <min>0.000000</min>
       <max>160.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="(x*.042549015377338205)*.6213711922373837">
+      <MATH equation="x*.02655960948117376">
         <VAR id="x" />
       </MATH>
     </XDFAXIS>
@@ -5157,7 +5157,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Torque, upshift, D mode, 1-&gt;2</title>
-    <description>Torque maps come into play during shift transtions and are an additional correction factor to the calculated torque reduction request from the TCU.&#013;&#010;&#013;&#010;A value of 50 means a 50% decrease in torque output&#013;&#010;A value of 100 means no change in torque output&#013;&#010;A value of 150 means 50% increase in torque output&#013;&#010;&#013;&#010;In general, a lower correction value means faster engine decel during upshifts.</description>
+    <description>Torque maps come into play during shift transtions and are an additional correction factor to the calculated torque reduction request from the TCU.&#013;&#010;&#013;&#010;A value of 50 means a 50% decrease in torque output&#013;&#010;A value of 100 means no change in torque output&#013;&#010;A value of 150 means 50% increase in torque output&#013;&#010;&#013;&#010;In general, a lower correction value means faster engine decel during upshifts</description>
     <CATEGORYMEM index="0" category="16" />
     <CATEGORYMEM index="1" category="30" />
     <CATEGORYMEM index="2" category="17" />
